@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: border-box;
+}
+.header {
+    margin: 15px 130px;
+}
+.title {
+    display: flex;
+    justify-content: space-between;
+}
+ul {
+    margin-top: 10px;
+}
+.links ul {
+    display: flex;
+}
+li {
+    list-style: none;
+    margin-right: 60px;
+    
+}
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.content-area {
+    background-color:black;
+    color: white;
+    height: 500px;
+    border-radius: 30px;
+}
+
+ .college-name {
+    background-image: linear-gradient(180deg, rgb(0, 255, 234), rgb(212, 0, 255));
+    width: 40%;
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 240px;
+    padding: 10px 18px;   
+    border-radius: 30px;
+    transition: background-image 2s;
+}
+.college-name:hover {
+    background-image: linear-gradient(to right, rgb(255, 0, 247) , rgb(231, 231, 227));
+    
+}
+
+h2 {
+    margin-left: 150px;
+}
+
+.information {
+    display: flex;
+    margin-top: 40px;
+}
+.circle {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin-left: 82px;  
+    background: linear-gradient(45deg, #f317d2 , #22028a, #fff200, #4de1f5);
+    border: 2px solid rgb(12, 12, 12);
+    background-size: 300% 300%;
+    animation: color 7s ease-in-out infinite;
+    transition: 0.5s;
+}
+
+ .circle:hover{
+     box-shadow: 0 0 20px 0 whitesmoke;
+     transform: scale(1.1);
+ }
+    
+
+
+@keyframes color {
+    
+    0%{
+        background-position: 0% 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0% 50%;
+    }
+   }
+
+
+.profile {
+    background-image: linear-gradient(to right, rgba(92, 84, 84, 0.728), rgba(255, 0, 0, 0.726));
+    height: 350px;
+    border-radius: 20px;
+    margin: 100px 30px;
+    transition: all 2s ease-out;
+}
+.profile:hover {  
+    background-image: linear-gradient(to right, rgba(124, 119, 119, 0.728), rgba(17, 0, 255, 0.726));
+    box-shadow: 0px 0px 15px rgb(240, 240, 240);  
+    
+}
+
+h3 {
+    margin: 20px 50px;
+}
+p {
+    padding: 10px 30px;
+}
+h1 {
+    font-size: 30px;
+    color: rgba(230, 8, 197, 0.699);
+}
+
+a:hover {
+    color: rgba(0, 34, 255, 0.628);
+    font-size: 20px;
+}
